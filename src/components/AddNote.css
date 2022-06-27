@@ -1,0 +1,44 @@
+.addNote {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 48px;
+  width: 32em;
+}
+
+.addNote__title {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+.addNote__formInput {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.addNote__maxChar {
+  font-size: 0.9rem;
+  color: #aaa;
+  text-align: right;
+  margin-bottom: 8px;
+}
+
+.addNote__noteTitle {
+  height: 40px;
+  margin-top: 5px;
+}
+
+.addNote__noteBody {
+  margin: 0;
+  margin-bottom: 14px; 
+}
+
+.addNote__formInput button {
+  background: transparent;
+  border: 1px solid #aaa;
+  color: white;
+  padding: 10px 0px;
+  font-weight: 700;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,33 @@
+@media only screen and (min-width: 800px) {
+  .active-notes__items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .active-notes__items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  .active-notes__items {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.active-notes__title {
+  font-weight: 400;
+}
+
+.active-notes__items {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 40px;
+  margin-top: 10px;
+}
+
+.notes-list__empty-message {
+  text-align: center;
+}

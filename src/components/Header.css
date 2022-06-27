@@ -1,0 +1,11 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 15px;
+  border-bottom: 1px solid #aaa;
+}
+
+.header__searchBar {
+  width: 25rem;
+}
